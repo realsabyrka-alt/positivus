@@ -23,6 +23,8 @@
   }
 
   &__logo {
+    @include active-click;
+
     @include tablet {
       max-width: 120px;
     }
@@ -65,6 +67,8 @@
           width: 100%;
         }
       }
+
+      @include active-click;
 
       &::after {
         content: '';
