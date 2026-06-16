@@ -48,3 +48,7 @@ h4, .h4 {
   outline-offset: 4px;
   transition-duration: 0s !important;
 }
+
+::selection {
+  background-color: var(--color-accent);
+}
