@@ -56,3 +56,9 @@
   clip: rect(0 0 0 0) !important;
   overflow: hidden !important;
 }
+
+@mixin active-click {
+  &:active {
+    transform: translateY(2px);
+  }
+}
