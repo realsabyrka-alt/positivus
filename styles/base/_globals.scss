@@ -42,3 +42,13 @@ h3, .h3 {
 h4, .h4 {
   @include fluid-text(20, 18);
 }
+
+:focus-visible {
+  outline: 2px dashed var(--color-gray-alt);
+  outline-offset: 4px;
+  transition-duration: 0s !important;
+}
+
+::selection {
+  background-color: var(--color-accent);
+}
