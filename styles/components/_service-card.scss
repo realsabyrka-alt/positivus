@@ -71,6 +71,8 @@
       opacity: 0.7;
     }
 
+    @include active-click;
+
     @include mobile {
       align-self: end;
     }

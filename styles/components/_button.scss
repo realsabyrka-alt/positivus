@@ -16,6 +16,8 @@
     background-color: var(--color-accent);
   }
 
+  @include active-click;
+
   &--transparent {
     color: var(--color-dark);
     background-color: transparent;
